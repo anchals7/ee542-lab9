@@ -1,0 +1,22 @@
+# Lab 9 Part 3: install with  pip install -r requirements.txt
+
+# Reading documents (II.1)
+pypdf
+fonttools
+beautifulsoup4
+
+# MySQL (II.1)
+pymysql
+
+# Chunking, embeddings, vector store, conversation chain (II.2 - II.4)
+langchain
+langchain-classic
+langchain-community
+langchain-openai
+langchain-text-splitters
+openai
+faiss-cpu
+
+# Settings and website
+python-dotenv
+streamlit

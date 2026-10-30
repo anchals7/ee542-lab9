@@ -1,0 +1,15 @@
+# Ignore python virtual environments
+.venv/
+**/__pycache__/
+*.pyc
+
+# Ignore massive language models and heavy data artifacts
+models/
+*.gguf
+embedding/faiss_index/
+embedding/data/
+
+# Ignore system/IDE logs
+.DS_Store
+.vscode/
+.env

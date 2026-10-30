@@ -1,0 +1,4 @@
+#Thu Oct 29 19:52:10 PDT 2026
+base.0=/home/blakecourtney/school/f26/ee542/lab9/groupchat_app_src/twa_android_src/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
