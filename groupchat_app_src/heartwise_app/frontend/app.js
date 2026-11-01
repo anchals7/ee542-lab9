@@ -2,6 +2,13 @@
 const API = "/api";
 const $ = (id) => document.getElementById(id);
 
+const url = new URL(window.location.href);
+
+if (url.searchParams.has("utm_source")) {
+    url.searchParams.delete("utm_source");
+    window.history.replaceState({}, "", url.pathname + url.search + url.hash);
+}
+
 let token = localStorage.getItem("heartwise_token");
 let currentUsername = localStorage.getItem("heartwise_username");
 let signupMode = false;
