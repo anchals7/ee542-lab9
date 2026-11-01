@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.heartwise.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "180",
+                        "endColumns": "83",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "83",
+                        "endOffsets": "134"
+                    }
+                }
+            ]
+        }
+    ]
+}

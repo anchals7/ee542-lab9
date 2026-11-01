@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.heartwise.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:6:5-24:19
+14        android:allowBackup="false"
+14-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:9:9-36
+15        android:debuggable="true"
+16        android:extractNativeLibs="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:8:9-43
+18        android:label="HeartWise"
+18-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:7:9-34
+19        android:supportsRtl="true"
+19-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:usesCleartextTraffic="true" >
+21-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:11:9-44
+22        <activity
+22-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:13:9-22:20
+23            android:name="com.heartwise.app.MainActivity"
+23-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:14:13-58
+24            android:exported="true" >
+24-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:17:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:18:17-69
+26-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:19:17-77
+28-->/Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

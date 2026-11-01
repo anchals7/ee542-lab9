@@ -8,34 +8,20 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="34" />
 
-    <queries>
-        <intent>
-            <action android:name="android.intent.action.VIEW" />
-
-            <category android:name="android.intent.category.BROWSABLE" />
-
-            <data android:scheme="https" />
-        </intent>
-    </queries>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:allowBackup="true"
-        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:allowBackup="false"
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher"
         android:label="GroupChat"
         android:supportsRtl="true"
-        android:testOnly="true" >
-
-        <!-- LauncherActivity from android-browser-helper opens the TWA -->
+        android:testOnly="true"
+        android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
+            android:name="com.helloworld.groupchat.twa.MainActivity"
             android:exported="true" >
-            <meta-data
-                android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="@string/defaultUrl" />
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

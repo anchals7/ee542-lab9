@@ -1,0 +1,8 @@
+com.heartwise.app-pngs-0 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/build/generated/res/pngs/debug
+com.heartwise.app-resValues-1 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/build/generated/res/resValues/debug
+com.heartwise.app-updated_navigation_xml-2 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/build/generated/updated_navigation_xml/debug
+com.heartwise.app-packageDebugResources-3 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.heartwise.app-packageDebugResources-4 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.heartwise.app-debug-5 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.heartwise.app-debug-6 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/debug/res
+com.heartwise.app-main-7 /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/res

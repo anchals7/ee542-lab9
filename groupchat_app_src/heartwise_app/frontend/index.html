@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HeartWise | Heart Health Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="header">
+      <div class="brand">
+        <span class="brand-icon">♥</span>
+        <div>
+          <h1>HeartWise</h1>
+          <p>Your heart-health learning companion</p>
+        </div>
+      </div>
+      <div id="account" class="account" hidden>
+        <span id="username"></span>
+        <button id="logout-btn" class="secondary-btn">Log out</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="auth-screen" class="auth-screen">
+        <div class="auth-card">
+          <div class="hero-heart">♥</div>
+          <h2>Welcome to HeartWise</h2>
+          <p>Learn about heart health with clear, research-informed answers.</p>
+
+          <form id="auth-form">
+            <label for="auth-username">Username</label>
+            <input id="auth-username" autocomplete="username" required maxlength="50">
+
+            <label for="auth-password">Password</label>
+            <input id="auth-password" type="password" autocomplete="current-password" required>
+
+            <p id="auth-error" class="error" role="alert"></p>
+            <button id="auth-submit" class="primary-btn" type="submit">Log in</button>
+          </form>
+
+          <button id="auth-toggle" class="text-btn" type="button">
+            New here? Create an account
+          </button>
+        </div>
+      </section>
+
+      <section id="chat-screen" class="chat-screen" hidden>
+        <div class="chat-heading">
+          <h2>Ask HeartWise</h2>
+          <p>Explore heart health, prevention, and everyday wellness.</p>
+        </div>
+
+        <div id="messages" class="messages" role="log" aria-live="polite">
+          <div class="message assistant-message">
+            <div class="message-label">HeartWise</div>
+            <div class="message-content">
+              Hi! I'm HeartWise. I can help you understand heart-health topics
+              using educational materials from the CDC and NHLBI.
+              What would you like to learn today?
+            </div>
+          </div>
+        </div>
+
+        <div id="suggestions" class="suggestions">
+          <button type="button" data-question="What are common risk factors for heart disease?">
+            Heart disease risk factors
+          </button>
+          <button type="button" data-question="How can I keep my heart healthy?">
+            Keeping your heart healthy
+          </button>
+          <button type="button" data-question="What is high blood pressure?">
+            Understanding blood pressure
+          </button>
+        </div>
+
+        <form id="chat-form" class="composer">
+          <label class="sr-only" for="question">Ask a heart-health question</label>
+          <textarea id="question" rows="2" maxlength="2000"
+            placeholder="Ask a heart-health question..." required></textarea>
+          <button id="send-btn" class="primary-btn" type="submit">Send</button>
+        </form>
+
+        <p class="disclaimer">
+          HeartWise provides general educational information, not medical
+          diagnosis or personalized treatment advice. For emergencies,
+          call 911 in the United States.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+

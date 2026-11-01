@@ -1,0 +1,2 @@
+com.heartwise.app:string/defaultUrl = 0x7f020000
+com.heartwise.app:mipmap/ic_launcher = 0x7f010000

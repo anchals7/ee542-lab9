@@ -1,0 +1,2 @@
+int mipmap ic_launcher 0x7f010000
+int string defaultUrl 0x7f020000

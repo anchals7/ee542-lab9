@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:6:5-24:19
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:6:5-24:19
+	android:extractNativeLibs
+		INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:7:9-34
+	android:icon
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:9:9-36
+	android:usesCleartextTraffic
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:11:9-44
+activity#com.heartwise.app.MainActivity
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:13:9-22:20
+	android:exported
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:14:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anchalsrivastava/Downloads/ee542-lab9-main/groupchat_app_src/heartwise_app/android/app/src/main/AndroidManifest.xml
